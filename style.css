@@ -127,3 +127,7 @@ footer
     width: 1900px;
     background-color: green;
 }
+li a
+{
+    color: white;
+}
