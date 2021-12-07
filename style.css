@@ -127,6 +127,12 @@ footer
     width: 1900px;
     background-color: green;
 }
+.logo
+{
+    float: left;
+    padding-left: 20px;
+}
+
 li a
 {
     color: white;
@@ -141,5 +147,5 @@ nav
 nav li
 {
     display: inline-block;
-    line-height: 50px;
+    line-height: 80px;
 }
