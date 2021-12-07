@@ -130,4 +130,13 @@ footer
 li a
 {
     color: white;
+    text-decoration: none;
+}
+nav
+{
+    float: right;
+}
+nav li
+{
+    display: inline-block;
 }
