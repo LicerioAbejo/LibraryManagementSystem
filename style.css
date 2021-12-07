@@ -111,15 +111,17 @@ input, select {
 }
 header
 {
-    height: 130px;
+    height: 150px;
     width: 1900px;
     background-color: blue;
 }
 section
 {
-    height: 450px;
+    height: 700px;
     width: 1900px;
+    margin-top: 0px;
     background-color: grey;
+    background-image: url("media/library.jpg");
 }
 footer
 {
@@ -130,7 +132,11 @@ footer
 .logo
 {
     float: left;
-    padding-left: 20px;
+    padding-left: 50px;
+}
+.logo img
+{
+    padding-left: 50px;
 }
 
 li a
@@ -148,4 +154,13 @@ nav li
 {
     display: inline-block;
     line-height: 80px;
+}
+.box
+{
+    height: 300px;
+    width: 450px;
+    background-color: #030002;
+    margin: 60px auto;
+    opacity: .7;
+    color: white;
 }
