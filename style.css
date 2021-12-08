@@ -113,15 +113,19 @@ header
 {
     height: 150px;
     width: 1900px;
-    background-color: blue;
+    background-color: #575757;
+}
+section .sec_img
+{
+    height: 700px;
+    margin-top: 0px;
+    background-image: url("media/library.jpg");
 }
 section
 {
     height: 700px;
     width: 1900px;
-    margin-top: 0px;
     background-color: grey;
-    background-image: url("media/library.jpg");
 }
 footer
 {
@@ -163,4 +167,13 @@ nav li
     margin: 60px auto;
     opacity: .7;
     color: white;
+}
+
+/*----------------STUDENT_LOGIN-------------------*/
+
+.login_img
+{
+    height: 550px;
+    margin-top: 0px;
+    background-image: none;
 }
