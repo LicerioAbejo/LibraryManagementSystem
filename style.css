@@ -177,3 +177,13 @@ nav li
     margin-top: 0px;
     background-image: none;
 }
+
+.box1
+{
+    height: 400px;
+    width: 550px;
+    background-color: #030002;
+    margin: 60px auto;
+    opacity: .7;
+    color: white;
+}
