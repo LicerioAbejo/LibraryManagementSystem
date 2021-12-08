@@ -119,7 +119,6 @@ section .sec_img
 {
     height: 700px;
     margin-top: 0px;
-    background-image: url("media/library.jpg");
 }
 section
 {
@@ -169,6 +168,39 @@ nav li
     color: white;
 }
 
+.box1 .search-container
+{
+    float: none;
+}
+
+.box1 .search-container button
+{
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.box1 input[type=text]
+{
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 20px;
+    border: none;
+}
+
+.box1
+{
+    height: 100px;
+    width: 400px;
+    background-color: #030002;
+    margin: 60px auto;
+    opacity: .7;
+}
 /*----------------STUDENT_LOGIN-------------------*/
 
 .login_img
@@ -178,7 +210,7 @@ nav li
     background-image: none;
 }
 
-.box1
+.box2
 {
     height: 400px;
     width: 550px;
